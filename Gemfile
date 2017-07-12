@@ -56,5 +56,6 @@ group :production do
   gem 'pg'
   gem 'puma'
   gem 'rails_12factor'
-  gem 'rails_log_stdout', github: 'heroku/rails_log_stdout'
+  gem 'rails_serve_static_assets'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
 end
