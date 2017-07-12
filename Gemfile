@@ -57,5 +57,6 @@ group :production do
   gem 'puma'
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
+  gem 'rack-timeout'
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
 end
