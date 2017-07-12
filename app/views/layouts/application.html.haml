@@ -21,6 +21,11 @@
           %li= link_to 'Log In', new_user_session_path
   .spacer
   .container
+    %div#pageloader
+      %div.spinner
+      %div.bounce1
+      %div.bounce2
+      %div.bounce3
     -flash.each do |name, msg|
       =content_tag :div, msg, class: "alert alert-info"
 
