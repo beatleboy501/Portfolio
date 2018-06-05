@@ -9,6 +9,8 @@ gem 'paperclip', '~> 5.2.0'
 gem 'loofah', '~> 2.2.1'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'rails_12factor'
+# Postgres
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
