@@ -35,6 +35,13 @@ gem 'devise', '~> 3.4.1'
 gem 'masonry-rails', '~> 0.2.1'
 gem 'acts_as_votable', '~> 0.10.0'
 
+gem 'pg'
+gem 'puma'
+gem 'rails_12factor'
+gem 'rails_serve_static_assets'
+gem 'rack-timeout'
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -57,13 +64,4 @@ group :development do
   gem 'spring'
 
   gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
-  gem 'puma'
-  gem 'rails_12factor'
-  gem 'rails_serve_static_assets'
-  gem 'rack-timeout'
-  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
 end
