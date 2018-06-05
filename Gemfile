@@ -2,7 +2,13 @@ source 'https://rubygems.org'
 
 ruby '2.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '~> 4.2.7.1'
+gem 'activerecord', '~> 4.2.7.1'
+gem 'actionview', '~> 4.2.7.1'
+gem 'paperclip', '~> 5.2.0'
+gem 'loofah', '~> 2.2.1'
+gem 'rails-html-sanitizer', '~> 1.0.4'
+gem 'rails_12factor'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,7 +30,6 @@ gem 'haml', '~> 4.0.5'
 gem 'simple_form', '~> 3.0.2'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'devise', '~> 3.4.1'
-gem 'paperclip', '~> 4.2.0'
 gem 'masonry-rails', '~> 0.2.1'
 gem 'acts_as_votable', '~> 0.10.0'
 
